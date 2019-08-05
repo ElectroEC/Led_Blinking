@@ -8,6 +8,7 @@ void setup() {
 }
 
 void loop() {
+  Serial.println("loop begin...");
   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(1000);                       // wait for a second
   //Serial.println("On");
